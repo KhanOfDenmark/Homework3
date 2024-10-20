@@ -6,14 +6,20 @@ public class Main {
         short firstShort = 1023;
         int firstInt = 56432;
         long firstLong = 1_856_915_053L;
-        float firstFloat = 53.2471423f;
+        float firstFloat = 53.247143f;
         double firstDouble = 643.519056763277;
-        System.out.println(firstByte);
-        System.out.println(firstShort);
-        System.out.println(firstInt);
-        System.out.println(firstLong);
-        System.out.println(firstFloat);
-        System.out.println(firstDouble);
+        System.out.println("Значение переменной firstByte с типом byte равно "
+                +firstByte);
+        System.out.println("Значение переменной firstShort с типом short равно "
+                +firstShort);
+        System.out.println("Значение переменной firstInt с типом int равно "
+                +firstInt);
+        System.out.println("Значение переменной firstLong с типом long равно "
+                +firstLong);
+        System.out.println("Значение переменной firstFloat с типом float равно "
+                +firstFloat);
+        System.out.println("Значение переменной firstDouble с типом double равно "
+                +firstDouble);
         System.out.println("***");
 
         //Task#2
